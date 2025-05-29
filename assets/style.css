@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center/cover;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  max-width: 1100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Coluna esquerda - texto */
+.text-content {
+  flex: 1;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-content .logo {
+  height: 120px;
+  margin-bottom: 2rem;
+}
+
+.text-content h1 {
+  font-size: 1.8rem;
+  color: #195ab4;
+  margin-bottom: 1rem;
+}
+
+.text-content p {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Coluna direita - formulário */
+.form-container {
+  flex: 1;
+  background-color: #fff;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #195ab4;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.lgpd-consent {
+  margin-bottom: 1.5rem;
+}
+
+.lgpd-consent label {
+  font-weight: normal;
+  font-size: 0.9rem;
+}
+
+button {
+  padding: 0.75rem;
+  width: 100%;
+  background-color: #195ab4;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #144d9e;
+}
+
+.message {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.success {
+  color: #2e7d32;
+}
+
+.error {
+  color: #c62828;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .text-content,
+  .form-container {
+    padding: 2rem;
+  }
+
+  .text-content h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .text-content p {
+    text-align: center;
+  }
+
+  .form-container {
+    background-color: #f9f9f9;
+  }
+}
+
+@media (max-width: 500px) {
+  .text-content .logo {
+    height: 80px;
+    margin: 0 auto 1rem;
+  }
+
+  .text-content h1,
+  .text-content p {
+    text-align: center;
+  }
+
+  .main {
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
