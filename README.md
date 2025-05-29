@@ -81,10 +81,11 @@ http://localhost:8080/api/v1/leads
 ## 🧑‍💻 Autor
 
 Desenvolvido por **Phillip Pimenta**  
-[https://github.com/phillippimenta](https://github.com/phillippimenta)
+Desenvolvedor Java | Arquiteto de Software  
+[LinkedIn](https://www.linkedin.com/in/phillippimenta)
 
 ---
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+Este projeto é apenas para fins educacionais e técnicos, desenvolvido como parte de um desafio de arquitetura de soluções.
