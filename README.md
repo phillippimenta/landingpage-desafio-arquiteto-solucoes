@@ -8,7 +8,9 @@ Esta aplicação foi construída com foco em responsividade, usabilidade e integ
 
 ### ✨ Demonstração visual
 
-![Exemplo da interface](https://github.com/phillippimenta/assets-desafio-arquiteto-solucoes/blob/main/landingpage-preview.png)
+![Exemplo da interface Mobile](https://github.com/phillippimenta/assets-desafio-arquiteto-solucoes/blob/main/landing-page-mobile.png)
+![Exemplo da interface Tablet](https://github.com/phillippimenta/assets-desafio-arquiteto-solucoes/blob/main/landing-page-tablet.png)
+![Exemplo da interface Desktop](https://github.com/phillippimenta/assets-desafio-arquiteto-solucoes/blob/main/landing-page-desktop.png)
 
 ---
 
