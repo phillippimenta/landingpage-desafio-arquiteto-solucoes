@@ -30,9 +30,10 @@ Esta aplicação foi construída com foco em responsividade, usabilidade e integ
 ```
 .
 ├── index.html         # Página principal
-├── style.css          # Estilo visual customizado
-├── script.js          # Lógica de envio e validações
-├── assets/            # (opcional) Imagens e logos
+├── assets/
+│ ├── style.css # Estilo visual customizado
+│ ├── script.js # Lógica de envio e validações
+│ └── logo.png # (opcional) Imagens e logotipo
 └── README.md
 ```
 
