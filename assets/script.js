@@ -5,15 +5,14 @@ document.getElementById('leadForm').addEventListener('submit', async function (e
   const messageDiv = document.getElementById('message');
 
   // Remover máscaras
-  const cleanCPF = form.cpf.value.replace(/\D/g, '');
   const cleanPhone = form.phone.value.replace(/\D/g, '');
 
   const data = {
     name: form.name.value,
-    cpf: cleanCPF,
+    cpf: form.cpf.value,
     email: form.email.value,
     phone: cleanPhone,
-    consent: true
+    consentGiven: true
   };
 
   try {
